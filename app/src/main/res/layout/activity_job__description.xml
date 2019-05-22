@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:scrollbars="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/silver"
+
+    tools:context=".dash.Job_Description">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+           >
+             <TextView
+                 android:id="@+id/Job_tile"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Android developer"
+                 android:layout_marginTop="15dp"
+                 android:textSize="20dp"
+                 android:textColor="#696969"
+                 android:textStyle="bold"
+                 android:background="@android:color/transparent"
+                 android:layout_marginLeft="20dp"
+
+
+                 />
+
+
+            <TextView
+                android:id="@+id/company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Gravitational Pvt ltd"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:background="@android:color/transparent"
+
+
+                android:layout_marginLeft="20dp"/>
+
+
+
+
+            <TextView
+                android:id="@+id/post_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14 May,2019"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:background="@android:color/transparent"
+
+                android:layout_marginLeft="20dp"/>
+
+              <View
+                  android:layout_marginTop="20dp"
+                  android:layout_width="wrap_content"
+                  android:background="@color/gray"
+
+                  android:layout_height="1dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Contract Person:"
+                android:textColor="@color/input_Black"
+                android:textSize="15sp" />
+
+
+
+            <TextView
+                 android:id="@+id/contract_name"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="Pramod"
+                android:singleLine="true"
+
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="0dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="Contract Mobile:"
+                    android:textColor="@color/input_Black"
+                    android:textSize="15sp" />
+
+
+
+                <TextView
+                    android:id="@+id/contract_mobile"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="9717194480"
+                    android:singleLine="true"
+
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="0dp"/>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text="Experience required for the job:"
+                    android:textColor="@color/input_Black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="20dp"/>
+
+
+
+                <TextView
+                    android:id="@+id/experience"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:text=""
+
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="0dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Annual salary of this Job:"
+                android:textColor="@color/input_Black"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"/>
+
+
+
+            <TextView
+                 android:id="@+id/salary"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="5Lackk:"
+
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_marginLeft="0dp"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Job Location:"
+                android:textColor="@color/input_Black"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="Job Location:"
+
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:layout_marginLeft="0dp"/>
+
+        </LinearLayout>
+
+
+
+        
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hi,"
+
+                android:layout_marginTop="30dp"
+                android:textSize="13sp"
+
+
+                android:layout_marginLeft="20dp"
+
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Good Evening!!!"
+
+                android:layout_marginTop="20dp"
+                android:textSize="13sp"
+                android:textColor="@color/input_Black"
+
+
+                android:layout_marginLeft="20dp"
+
+
+
+                />
+
+
+
+
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/large_text"
+                android:layout_marginRight="5dp"
+                android:textSize="14sp"
+                android:background="@android:color/transparent"
+
+                android:layout_marginLeft="20dp"
+
+
+
+                />
+
+
+
+
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/track_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+
+                android:background="@color/colorPrimaryDark"
+
+                android:textColor="@color/colorWhite"
+                android:text="Track"/>
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+
+
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+</ScrollView>

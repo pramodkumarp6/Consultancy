@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+
+       <!-- <item
+            android:id="@+id/home"
+
+            android:icon="@drawable/ic_profile_dash"
+            android:title="Profile" />-->
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_navi_home"
+            android:title="Home" />
+        <!-- <item
+             android:id="@+id/password"
+             android:icon="@drawable/ic_password_change"
+             android:title="Password Change" />-->
+
+        <!--   <item
+               android:id="@+id/users"
+               android:icon="@drawable/ic_users"
+               android:title="User" />-->
+        <item
+            android:id="@+id/document"
+            android:icon="@drawable/ic_navi_document_view_user"
+            android:title="Document View" />
+
+        <item
+            android:id="@+id/nav_interView"
+            android:icon="@drawable/ic_interview_dash"
+            android:title="InterView Schedule" />
+
+
+
+        <item
+            android:id="@+id/nav_massage"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat" />
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_location_user"
+            android:title="Location" />
+
+
+        <item
+            android:id="@+id/nav_feed"
+            android:icon="@drawable/ic_navi_feed"
+            android:title="FeedBack" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_about"
+
+                android:title="Policy" />
+        </menu>
+    </item>
+
+</menu>

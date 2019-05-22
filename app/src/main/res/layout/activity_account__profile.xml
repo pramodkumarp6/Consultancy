@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dash.Account_Profile">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_color">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_alignParentTop="true"
+
+
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_weight="1"
+                        android:text="USER NAME"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profileImageView"
+                        android:layout_width="50dp"
+                        android:layout_height="96dp"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_account_circle_black"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="215dp"
+                    android:layout_alignParentTop="true"
+
+
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/user_profile"
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="65dp"
+                        android:layout_weight="1"
+                        android:text="USER NAME"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="215dp"
+                    android:layout_alignParentTop="true"
+
+
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="120dp"
+
+                        android:background="@color/white" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+
+
+                    android:layout_marginTop="150dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/user_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+
+                        android:drawableLeft="@drawable/ic_location_add"
+                        android:drawablePadding="20dp"
+                        android:text="Address"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+
+                    <TextView
+                        android:id="@+id/user_experience"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+
+                        android:drawableLeft="@drawable/ic_exprience_user"
+                        android:drawablePadding="20dp"
+                        android:text="Experience"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/user_mail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_mail_user"
+                        android:drawablePadding="20dp"
+                        android:text="Mail"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/user_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_call_user"
+                        android:drawablePadding="20dp"
+                        android:text="Phone"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="16sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/user_resume"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Resume Headline"
+                    android:textColor="@color/input_Black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/resume"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="simple Data"
+
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/user_profile_sumary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Profile Summary"
+                    android:textColor="@color/input_Black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+
+
+
+                <TextView
+                    android:id="@+id/user_profile_sumary1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Hello"
+
+                    android:textSize="18sp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+
+            android:layout_marginTop="1dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/user_keySkill"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_margin="15dp"
+                android:layout_marginTop="35dp"
+                android:layout_weight="1"
+                android:text="KeySkills"
+                android:textColor="@color/input_Black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/user_skill_add"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="35dp"
+                android:layout_margin="15dp"
+
+                android:layout_weight="1"
+                android:text="ADD"
+                android:textColor="@color/colorPrimary"
+                android:gravity="right"
+                android:textSize="18sp"
+
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/user_keySkil1l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="android"
+
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+
+                android:layout_marginTop="1dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/user_Emplyment"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="Employment"
+                    android:textColor="@color/input_Black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/user_Emp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="35dp"
+                    android:layout_margin="15dp"
+
+                    android:layout_weight="1"
+                    android:text="ADD"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="right"
+                    android:textSize="18sp"
+
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/user_keySkil1l2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="Not Mention"
+
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+
+                android:layout_marginTop="1dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/user_Emplyment1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="Project"
+                    android:textColor="@color/input_Black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/user_project"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="35dp"
+                    android:layout_margin="15dp"
+
+                    android:layout_weight="1"
+                    android:text="ADD"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="right"
+                    android:textSize="18sp"
+
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/user_keySkil1l22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="Not Mention"
+
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+
+                android:layout_marginTop="1dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="IT Skills"
+                    android:textColor="@color/input_Black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/user_itSkill"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="35dp"
+                    android:layout_margin="15dp"
+
+                    android:layout_weight="1"
+                    android:text="ADD"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="right"
+                    android:textSize="18sp"
+
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="Not Mention"
+
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+
+                android:layout_marginTop="1dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="Education"
+                    android:textColor="@color/input_Black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/user_education"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="35dp"
+                    android:layout_margin="15dp"
+
+                    android:layout_weight="1"
+                    android:text="ADD"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="right"
+                    android:textSize="18sp"
+
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/user_keySkil1l211"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="Not Mention"
+
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+
+                android:layout_marginTop="1dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="Certifications"
+                    android:textColor="@color/input_Black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/user_certificate"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="35dp"
+                    android:layout_margin="15dp"
+
+                    android:layout_weight="1"
+                    android:text="ADD"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="right"
+                    android:textSize="15sp"
+
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/user_keySkil1l241"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="Not Mention"
+
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+
+                android:layout_marginTop="1dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/user_Emplyment143"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+
+                    android:text="Desired Career Profile"
+                    android:textColor="@color/input_Black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/user_keySkil1l12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="Not Mention"
+
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+
+                android:layout_marginTop="1dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="Other Details"
+                    android:textColor="@color/input_Black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/other_details"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="35dp"
+                    android:layout_margin="15dp"
+
+                    android:layout_weight="1"
+                    android:text="ADD"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="right"
+                    android:textSize="18sp"
+
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/user_keySkl2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="Not Mention"
+
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+
+                android:layout_marginTop="1dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="Language Known"
+                    android:textColor="@color/input_Black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Language_Known"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="35dp"
+                    android:layout_margin="15dp"
+
+                    android:layout_weight="1"
+                    android:text="ADD"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="right"
+                    android:textSize="18sp"
+
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/user_keySkil1l2147"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1"
+                    android:text="Not Mention"
+
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    </RelativeLayout>
+
+

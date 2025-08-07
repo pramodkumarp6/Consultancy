@@ -1,14 +1,17 @@
 package com.gravitational.consultancy.pramod.user;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.gravitational.consultancy.pramod.user.activities.Login;
+import com.gravitational.consultancy.pramod.user.databinding.ActivityHomeBinding;
 
 
 public class HomeActivity extends AppCompatActivity {
-
+  //private ActivityHomeBinding  binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

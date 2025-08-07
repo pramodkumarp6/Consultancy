@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Document_View extends AppCompatActivity {
-    private PDFView pdfView;
+    //private PDFView pdfView;
     private RecyclerView recyclerView;
 
     private DowonloadAdapter dowonloadAdapter;

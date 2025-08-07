@@ -1,11 +1,12 @@
 package com.gravitational.consultancy.pramod.user.dash;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.gravitational.consultancy.pramod.user.R;
 import com.gravitational.consultancy.pramod.user.activities.Registration;

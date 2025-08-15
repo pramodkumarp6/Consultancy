@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dash.Setting">
+    tools:context=".ui.dash.Setting">
 
 </android.support.constraint.ConstraintLayout>

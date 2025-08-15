@@ -20,7 +20,7 @@
     android:layout_height="match_parent"
     android:background="@color/silver"
 
-    tools:context=".dash.Job_Description">
+    tools:context=".ui.dash.Job_Description">
 
 
 

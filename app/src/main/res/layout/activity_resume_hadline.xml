@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="15dp"
-    tools:context=".dash.Resume_hadline">
+    tools:context=".ui.dash.Resume_hadline">
 
 
     <android.support.design.widget.TextInputLayout
